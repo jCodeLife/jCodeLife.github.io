@@ -1,11 +1,21 @@
-html,body{
-    width: 595px;
+/* 设置页面A4大小 */
+body{
+    width: 21cm;
+    min-height: 29.7pxcm;
     margin: 0 auto;
     font-size: 14px;
     box-sizing: border-box;
+    background-color: #eee;
 }
+/* 设置简历背景和内边距 */
+article{    
+    background-color: #fff;
+    padding: 1em;
+}
+/* 设置个人简介部分 */
 .brief{
-    height: 120px;
+    /* height: 154px; */
+    height: 122px;
 }
 .brief div{
     float:left;
@@ -17,17 +27,19 @@ html,body{
     background-color:#38f;
     width: 80px;
     float: right;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 .brief div p:nth-of-type(1){
     padding-top: 5px;
 }
+/* 设置教育经历部分 */
 .education p span{
     padding-right: .5em;
 }
 .education p span:nth-child(3),.project p span{
     color: #f40;
 }
+/* 技能部分 */
 .skill span{
     color: #f40;
     /* font-size: 1.1em; */
@@ -35,7 +47,7 @@ html,body{
 .skill p,.project p{
     margin: 6px auto;
 }
-
+/* 设置项目经历 */
 .project a , .links a{
     text-decoration: none;
     color: #000;
@@ -44,4 +56,12 @@ html,body{
 .project a:hover , .links a:hover{
     color:#f40;
     
+}
+/* 用来清除浮动 */
+.clearfix:after{
+    content: "";
+    display: block;
+    clear:both;
+    visibility: hidden;
+    height: 0;
 }

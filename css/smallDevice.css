@@ -1,0 +1,20 @@
+html,body{
+    width: 300px;
+    margin: 0 auto;
+    /* padding: 0; */
+}
+.brief{
+    display: flex;
+    height: 160px;
+}
+.brief img{
+    margin:36px 10px 0 auto;
+    height: 120px;
+}
+.brief div{
+    order: -1;
+}
+.education{
+    padding-top: 10px;
+}
+

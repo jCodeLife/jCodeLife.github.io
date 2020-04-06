@@ -38,18 +38,19 @@ article{
 }
 .education p span:nth-child(3),.project p span{
     color: #f40;
+    font-size: .9em;
 }
 /* 技能部分 */
 .skill span{
     color: #f40;
-    /* font-size: 1.1em; */
+    font-size: .9em;
 }
 .skill p,.project p{
     margin: 6px auto;
 }
 /* 设置项目经历 */
 .project a , .links a{
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #000;
     font-weight: bold;
 }
